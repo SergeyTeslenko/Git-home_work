@@ -1,0 +1,132 @@
+*{
+margin: 0;
+padding: 0;
+
+  }
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.form-page {
+    border: 1px  solid #3c433a ;
+    border-radius: 10px ;
+    width: 500px;
+    height: 656px;
+    margin: 0 auto;
+    margin-top: 150px;
+    background:#fff;
+  }
+  .buttons{
+  margin: 52px  172px 40px 172px;
+  width: 157px;
+  height: 16px;
+
+  }
+  .login{
+    display: inline-block;
+    width: 52px;
+    height: 16px;
+    border: none;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 16px;
+    color: #3D3D3D;
+    background-color: #fff;
+    cursor: pointer;
+  }
+
+  .register{
+    display: inline-block;
+    width: 78px;
+    height: 16px;
+    border: none;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 16px;
+    background-color: #fff;
+    color:#46A358;
+    cursor: pointer;
+  }
+  .form h3{
+    width: 300px;
+    height: 16px;
+    font-size: 13px;
+    line-height: 16px;
+    margin-left: 100px;
+
+  }
+  .password {
+    margin-top: 14px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.password input{
+   padding: 14px 12px ;
+   color:#A5A5A5;
+
+}
+.form input{
+  width: 300px;
+  margin-top: 14px;
+  border: 1px solid #EAEAEA;
+}
+.password-container input {
+    font-size: 16px;
+    color:#A5A5A5;
+    margin-bottom: 41px;
+}
+
+.password-con i {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+   padding-left: 280px;
+    top: 49%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+
+.password-con .color{
+  display: inline;
+  width: 500px;
+  height: 10px;
+  color: #46A358;
+}
+.submit{
+  width: 325px;
+  height: 45px;
+  padding:16px 63px ;
+  border-radius: 5px;
+  border: none;
+  background-color: #46A358;
+  color:#fff;
+  margin-top: 41px;
+  margin-bottom: 36px;
+}
+.message {
+  width: 300px;
+  height: 16px;
+  text-decoration: none;
+
+  font-size: 13px;
+  color: #3D3D3D;text-align: center;
+ 
+}
+.google{
+  text-align: center;
+}
+.facebook{
+  text-align: center;
+ 
+}
+hr{
+  margin-top: 15px;
+  background-color:#46A358;
+  width: 500px;
+  height: 10px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+
+}
+
