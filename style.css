@@ -7,8 +7,8 @@ padding: 0;
 
 
 .form-page {
-    border: 3px  solid #3c433a ;
-    border-radius: 10px ;
+    border: 1px  solid #3c433a ;
+
     width: 500px;
     height: 656px;
     margin: 0 auto;
@@ -125,8 +125,8 @@ hr{
   background-color:#46A358;
   width: 500px;
   height: 10px;
-  border-bottom-left-radius: 8px;
-  border-bottom-right-radius: 8px;
+  /* border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px; */
 
 }
 
