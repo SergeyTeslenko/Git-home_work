@@ -95,6 +95,11 @@ margin-top: 10px;
   color:green;
   box-shadow: 0px 5px 0px #46A358;
 }
+.navs-lis:hover {
+   padding-bottom: 10px;
+   color:green;
+ 
+}
 
 .text-banner{
  text-transform: uppercase;
@@ -348,13 +353,7 @@ background: #4CAF50;
 }
 
 .card {
-    display: flex;
-    align-items: center;
-    border-radius: 10px;
-    background-color: #FBFBFB;
-    width: 586px;
-    height: 250px;
-    margin-top: 97px;
+   margin:0 33px;
 }
 
 .card-item_img {
@@ -482,3 +481,121 @@ background: #4CAF50;
 .sec{
   margin-top: 69px;
 }
+
+/* position-blogs */
+
+.position-blogs{
+  width: 840px;
+  margin: 0 auto;
+}
+.navs-lis{
+padding-left: 0;
+background: none;
+}
+.pos-nav_l{
+  margin-right: 10px;
+}
+
+.pos-navs{
+  display: flex;
+  justify-content: space-between;
+      align-items: center;
+  margin-top: 171px;
+
+}
+
+.pos-sail_card{
+display: flex;
+justify-content: space-between;
+margin-top: 31px;
+}
+.sail-card{
+  width: 258px;
+  height: 350px;
+
+}
+
+
+.icons{
+ width: 250px;
+ height: 250px;
+padding-bottom: 12px;
+}
+.sail-heading{
+padding-bottom: 6px;
+font-size: 16px;
+font-weight: 400;
+}
+.price{
+ color:#46A358;
+ font-weight: bold;
+}
+.price-end{
+  padding-left: 16px;
+  font-style: 16px;
+  color:#A5A5A5;
+  text-decoration: line-through;
+}
+.discount {
+  position:absolute;
+  top: 14px;
+  background-color: #27ae60;
+  color: white;
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 5px;
+ }
+ .discount-card{
+  width: 260px;
+  height: 300px;
+  margin-bottom: 12px;
+  background: #FBFBFB;
+
+ }
+
+ .sail-card-b{
+   position: relative;
+ }
+ .sail-card{
+   position: relative;
+
+ }
+ .disc-card_img{
+  
+  width: 258px;
+  height: 258px;
+  padding:25px 4px 0px 4px ;
+ }
+  .disc-card_img .img-bg{
+ 
+   height: 3px;
+ 
+ }
+ .sail-card-b:hover{
+   margin-bottom: 4px;
+   cursor: pointer;
+   box-shadow:0px -5px 0px #27ae60 ;
+   
+ }
+ .icon-1{
+  position: absolute;
+  top: 258px;
+  left: 73px;
+ }
+  .icon-2{
+  position: absolute;
+  top: 258px;
+  left: 115px;
+ }
+  .icon-3{
+  position: absolute;
+  top: 258px;
+  left: 162px;
+ }
+.icon-btn{
+   background:transparent;
+}
+
+
+
+
