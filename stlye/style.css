@@ -8,11 +8,8 @@ hr{
   background: transparent 50%;
   width: 1200px;
 
+}
 
-}
-hr:hover{
-  cursor: pointer;
-}
 .container{
   max-width: 1200px;
   margin: 0 auto;
@@ -94,11 +91,13 @@ display: flex;
 }
 .dropdown-content li a .drop-conts:hover {
   border-bottom: none;
-  color:#fff;
+   
+  
   background-color: #1A712A;
 }
 .dropdown li a:hover{
- background-color: #1A712A
+ background-color: #1A712A;
+  color:#fff;
 }
 
 .dropdown-content{
