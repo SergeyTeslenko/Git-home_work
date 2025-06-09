@@ -771,7 +771,19 @@ padding-bottom: 25px;
     font-weight: bold;
      border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
+    transition-duration: 500ms;
   }
+
+.input-container button:hover{
+    background-color: #046e09;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    width: 35%;
+    transition-duration: 3s;
+    transition-delay: 0s, 1s;
+    transition-timing-function: cubic-bezier(0.1, 0.8, 0.5, 2), linear;
+    color:#d3d00a;
+}
 
 
 /* Banner */
